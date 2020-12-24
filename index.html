@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAI8Kk-puGdsqiKwI_ey1dzWwI4kcg9zvI",
+        authDomain: "virtual-pet-d9f6d.firebaseapp.com",
+        databaseURL: "https://virtual-pet-d9f6d-default-rtdb.firebaseio.com",
+        projectId: "virtual-pet-d9f6d",
+        storageBucket: "virtual-pet-d9f6d.appspot.com",
+        messagingSenderId: "718799390062",
+        appId: "1:718799390062:web:cbb5ddcb9f5ad2b4156d7f"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/food.js"></script>
+    
+  </head>
+  <body>
+    <script src="js/sketch.js"></script>
+  </body>
+</html>
